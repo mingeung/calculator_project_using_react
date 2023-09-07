@@ -1,0 +1,188 @@
+body {
+  background-color: #c5e4e7;
+  font-family: "Space Mono", monospace;
+}
+#logoContainer {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.title {
+  color: #014040;
+  font-weight: 700;
+}
+
+.title2 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.subTitle {
+  color: #97b5b9;
+  margin: 0;
+  font-size: 10px;
+}
+#box {
+  position: relative;
+  padding: 30px;
+  width: 700px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+#box2 {
+  position: relative;
+  padding: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #014040;
+  border-radius: 15px;
+}
+
+.resultBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.reset {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  left: 30px;
+  background-color: #0d686d;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  color: #014040;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 18px;
+}
+.reset:hover {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  left: 30px;
+  background-color: #9fe8df;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  color: #0d686d;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 18px;
+}
+#tipGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+#custom {
+  background-color: #f3f8fb;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  color: #0d686d;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: end;
+}
+
+#bill {
+  background-color: #f3f8fb;
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  text-align: right;
+  color: #0d686d;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 20px;
+}
+#box1 input:focus {
+  border-color: #a0e7df;
+}
+#billImg {
+  position: absolute;
+  z-index: 999;
+  top: 90px;
+  left: 40px;
+}
+
+#people {
+  background-color: #f3f8fb;
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  text-align: right;
+  color: #0d686d;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 20px;
+}
+#personImg {
+  position: absolute;
+  z-index: 999;
+  top: 303px;
+  left: 40px;
+}
+#tipAmount {
+  background-color: #014040;
+  border: none;
+  text-align: right;
+  color: #a7f2e4;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 30px;
+  width: 200px;
+}
+#total {
+  background-color: #014040;
+  border: none;
+  text-align: right;
+  color: #a7f2e4;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 30px;
+  width: 200px;
+}
+
+.btn {
+  /* 일반 버튼 디자인 */
+  width: 90px;
+  height: 35px;
+  border: none;
+  background-color: #00474b;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.btnactive {
+  width: 90px;
+  height: 35px;
+  border: none;
+  background-color: #27c2ad;
+  border-radius: 5px;
+  color: #00474b;
+  font-family: "Space Mono", monospace;
+  font-weight: 800;
+  font-size: 17px;
+}
+.btn:hover {
+  background-color: #9fe8df;
+  color: #00474b;
+}
