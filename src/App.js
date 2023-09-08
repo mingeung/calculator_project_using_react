@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import logo from "./img/logo.svg";
+import dollor from "./img/icon-dollar.svg";
+import person from "./img/icon-person.svg";
 
 function App() {
   //tip button
@@ -43,12 +46,14 @@ function App() {
   };
   return (
     <div>
-      <div id="logoContainer">{/* <img id="logo" src="img/logo.svg" /> */}</div>
+      <div id="logoContainer">
+        <img id="logo" src={logo} />
+      </div>
 
       <div id="box">
         <div id="box1">
           <p className="title">Bill</p>
-          {/* <img id="billImg" src="img/icon-dollar.svg" /> */}
+          <img id="billImg" src={dollor} />
           <input
             value={bill}
             id="bill"
@@ -81,7 +86,7 @@ function App() {
             </div>
           </div>
           <p className="title">Number of People</p>
-          {/* <img id="personImg" src="img/icon-person.svg" /> */}
+          <img id="personImg" src={person} />
           <input
             value={people}
             id="people"
