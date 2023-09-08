@@ -43,14 +43,12 @@ function App() {
   };
   return (
     <div>
-      <div id="logoContainer">
-        <img id="logo" src="images/logo.svg" />
-      </div>
+      <div id="logoContainer">{/* <img id="logo" src="img/logo.svg" /> */}</div>
 
       <div id="box">
         <div id="box1">
           <p className="title">Bill</p>
-          <img id="billImg" src="images/icon-dollar.svg" />
+          {/* <img id="billImg" src="img/icon-dollar.svg" /> */}
           <input
             value={bill}
             id="bill"
@@ -83,7 +81,7 @@ function App() {
             </div>
           </div>
           <p className="title">Number of People</p>
-          <img id="personImg" src="images/icon-person.svg" />
+          {/* <img id="personImg" src="img/icon-person.svg" /> */}
           <input
             value={people}
             id="people"
