@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   //tip button
